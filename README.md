@@ -32,7 +32,7 @@ consumer secret needed to access Google's API.  Start the server with those
 variables set to the appropriate credentials.
 
 ```bash
-$ GOOGLE_CLIENT_ID=__GOOGLE_CLIENT_ID__ GOOGLE_CLIENT_SECRET=__GOOGLE_CLIENT_SECRET__ node server/server.js
+$ GOOGLE_CLIENT_ID=__GOOGLE_CLIENT_ID__ GOOGLE_CLIENT_SECRET=__GOOGLE_CLIENT_SECRET__ node app/server/server.js
 ```
 
 Open a web browser and navigate to [http://localhost:3000/](http://localhost:3000/)
