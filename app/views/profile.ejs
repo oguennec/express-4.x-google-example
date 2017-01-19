@@ -1,0 +1,17 @@
+<p>
+<% if (user.id) { %>
+ID: <%= user.id %><br/>
+<% } %>
+<% if (user.username) { %>
+Username: <%= user.username %><br/>
+<% } %>
+<% if (user.emails) { %>
+Email: <%= user.emails[0].value %><br/>
+<% } %>
+
+<h1> Google Profile </h1>
+Display Name: <%= user.displayName %><br/>
+Google Id: <%= user._json.id %><br/>
+Family Name: <%= user.name.familyName %><br/>
+Given Name: <%= user.name.givenName %><br/>
+</p>

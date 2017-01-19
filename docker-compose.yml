@@ -1,0 +1,8 @@
+web:
+  build: .
+  volumes:
+   - $PWD/app/server:/app/server
+   - $PWD/app/views:/app/views
+  ports:
+   - "3000:3000"
+
