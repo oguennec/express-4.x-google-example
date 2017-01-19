@@ -2,8 +2,9 @@ This project has been forked from [express-4.x-facebook-example by Jared Hanson]
 
 
 This example demonstrates how to use [Express](http://expressjs.com/) 4.x and
-[Passport](http://passportjs.org/) to authenticate users using Google.  Use
-this example as a starting point for your own web applications.
+[Passport](http://passportjs.org/) to authenticate users using Google (oauth2).
+
+Use this example as a starting point for your own web applications.
 
 ## Instructions
 
@@ -41,4 +42,4 @@ to see the example in action.
 [Jared Hanson]
 
 [Jared Hanson]: <https://github.com/jaredhanson>
-
+[express-4.x-facebook-example by Jared Hanson]: https://github.com/passport/express-4.x-facebook-example
